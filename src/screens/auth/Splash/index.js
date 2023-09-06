@@ -4,6 +4,7 @@ import { styles } from './styles'
 import Button from '../../../components/Button'
 import { SafeAreaView } from 'react-native-safe-area-context'
 
+
 const Splash = ({navigation}) => {
     onSignup = () =>{
         navigation.navigate("Signup")
